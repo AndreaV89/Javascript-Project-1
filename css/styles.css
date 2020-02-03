@@ -110,10 +110,11 @@ h1 {
   font-style: normal;
 }
 
-.year:before {
+.year:before, .tag:before {
   content: ", ";
   font-style: normal;
 }
+
 
 @media (min-width: 768px) {
   body {
